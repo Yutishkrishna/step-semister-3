@@ -1,6 +1,11 @@
-\# STEP Semester 3
+# Week 8 - Practice Problems
 
+Category B Java coding solutions.
 
+1. Vehicle Rental System
+2. Employee Leave Request Workflow
+3. Online Examination System
+4. Hotel Booking System
+5. Payment Processing for a Shopping System
 
-Coursework, assignments, and practice problems for the STEP program — Semester 3.
-
+The source PDF also contains quiz and concept questions; this branch contains the five requested coding implementations.
