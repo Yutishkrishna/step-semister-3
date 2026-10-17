@@ -1,0 +1,3 @@
+public class P4_ClassMarksGridAnalysis {
+ public static void main(String[] args){String[] names={"Asha","Ravi","Neha"};int[][] marks={{78,85,90},{88,92,79},{65,70,95}};int[] subject=new int[3],totals=new int[names.length];int top=0;System.out.print("Totals ");for(int i=0;i<names.length;i++){for(int j=0;j<3;j++){totals[i]+=marks[i][j];subject[j]+=marks[i][j];}if(totals[i]>totals[top])top=i;System.out.print(names[i]+" "+totals[i]+(i==names.length-1?"\n":", "));}System.out.printf("averages %.2f, %.2f, %.2f%n",subject[0]/(double)names.length,subject[1]/(double)names.length,subject[2]/(double)names.length);System.out.println("topper "+names[top]+" ("+totals[top]+")");}
+}
