@@ -28,3 +28,8 @@ Compile any file using javac Filename.java, then run java ClassName.
 | Round-Robin Game Turns | A8_RoundRobinGameTurns.java | addLast O(1), printTurns O(turns) | O(1) auxiliary |
 
 These three additional PDFs were added as separate Java solutions. Each program uses a custom linked-list node; the round-robin implementation uses a circular singly linked list with a tail reference.
+
+
+| Problem | Java file | Approach | Time complexity |
+|---|---|---|---|
+| 4. Train Coaches Both Ways | `A9_TrainCoachesBothWays.java` | Doubly linked list with head and tail | Find coach O(n); unlink O(1) |
