@@ -17,3 +17,14 @@ Complexity comparisons:
 - Linear price scan: O(n); binary search: O(log n). Both O(1) extra space.
 
 Compile any file using javac Filename.java, then run java ClassName.
+
+
+## Additional Category B linked-list problems
+
+| Problem | Java file | Time complexity | Extra space |
+|---|---|---|---|
+| Priority Token Insertion | A6_PriorityTokenInsertion.java | addFirst O(1), addLast O(n), insertAt O(n) | O(1) per operation |
+| Cancelled Orders Cleanup | A7_CancelledOrdersCleanup.java | O(n) | O(1) |
+| Round-Robin Game Turns | A8_RoundRobinGameTurns.java | addLast O(1), printTurns O(turns) | O(1) auxiliary |
+
+These three additional PDFs were added as separate Java solutions. Each program uses a custom linked-list node; the round-robin implementation uses a circular singly linked list with a tail reference.
